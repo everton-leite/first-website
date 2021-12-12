@@ -88,3 +88,42 @@ button a{
     font-size: 15px;
     font-weight: bold;
 }
+
+.team-section {
+    padding: 70px 150px 70px;
+}
+
+.team-section h2 {
+    background-color: #ffffff;
+    text-align: center;
+    color: #006a7f;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.team-components img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: #65c1c2;
+    border-radius: 5px;
+}
+
+.team-components {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 150px;
+}
+
+.person p {
+    text-align: center;
+    color: #8398a4;
+}
