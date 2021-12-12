@@ -127,3 +127,22 @@ button a{
     text-align: center;
     color: #8398a4;
 }
+
+.relate-section {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 150px;
+    background-color: #93bfc0;
+}
+
+.relate-section .relate {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.relate-section .author {
+    margin: 20px 0;
+    align-self: flex-end;
+    font-weight: bolder;
+}
