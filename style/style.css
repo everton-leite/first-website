@@ -84,7 +84,7 @@ button {
     margin: 5px 0;
 }
 
-button a{
+.destaque button a{
     color: #f9faf8;
     font-size: 15px;
     font-weight: bold;
@@ -171,6 +171,11 @@ button a{
 .message-box .singup-button button {
     background-color: transparent;
     border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.message-box .singup-button a {
+    text-decoration: none;
     color: #ffffff;
 }
 
