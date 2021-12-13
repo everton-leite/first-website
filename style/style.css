@@ -146,3 +146,38 @@ button a{
     align-self: flex-end;
     font-weight: bolder;
 }
+
+.message-section {
+    padding: 75px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.message-box {
+    background-color: #006a7f;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex;
+}
+
+.message-box .singup-button {
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.message-box .singup-button button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.message-section .message-box .message {
+    flex: 1;
+}
+
+.message-box h4,
+.message-box p {
+    margin: 0 15px;
+}
